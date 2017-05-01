@@ -1,3 +1,7 @@
+## 0.3.3
+
+- Upgrade dynapath to fix compatibility issues with java9.
+
 ## 0.3.2
 
 - Add function to reset a still classloader

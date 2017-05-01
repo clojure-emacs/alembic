@@ -1,3 +1,5 @@
+*This is a fork of alembic for the sole purpose of upgrade its dynapath dependency to fix compatibility issues with java9 as described in [this issue](https://github.com/clojure-emacs/refactor-nrepl/issues/169). There is no intention at the moment to revive/maintain alembic as a project.*
+
 # alembic
 
 [Repository](https://github.com/pallet/alembic) &#xb7;
@@ -30,7 +32,7 @@ do this by adding it to the `:dependencies` vector of the `:dev` profile in
 `project.clj`.
 
 ```clj
-:profiles {:dev {:dependencies [[alembic "0.3.2"]]}}
+:profiles {:dev {:dependencies [[clojure-emacs/alembic "0.3.3"]]}}
 ```
 
 You can enable Alembic on all you projects, by adding it to the `:dependencies`
